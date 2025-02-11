@@ -202,9 +202,9 @@ function drawText() {
 
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["But in this moment, what's certain and true", "I love you!!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
+            drawTextWithLineBreaks(["Yet in this moment, that's certain and true", "I love you!!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("But in this moment, what's certain and true, I love you!!", canvas.width/2, (canvas.height/2 + 50));
+            context.fillText("Yet in this moment, that's certain and true, I love you!!", canvas.width/2, (canvas.height/2 + 50));
         }
 
         secondOpacity = secondOpacity + 0.01;
